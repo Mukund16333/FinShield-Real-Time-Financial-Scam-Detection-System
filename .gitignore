@@ -1,0 +1,51 @@
+# Compiled output
+target/
+*.class
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# IDE - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env.local
+application-local.yml
+
+# Test/coverage output
+/target/surefire-reports/
+/target/site/
+*.exec
+
+# Packaged artifacts
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
